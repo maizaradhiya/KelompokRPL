@@ -9,7 +9,7 @@ class Wecan_model extends CI_model{
 	}
 	/* membuat fungsi untuk memasukkan data dari database dengan parameter $table yang datanya ingin diambil, $data merupakan data array yang ingin diinput */
 	public function insert_data($data,$table){
-		/* memasukkan data ke database */
+		/* memasukkan data ke databasee */
 		$this->db->insert($table,$data);
 	}
 	/* membuat fungsi untuk mengubah data dari database dengan parameter $table yang datanya ingin diambil, $data merupakan data array yang ingin diinput, 
